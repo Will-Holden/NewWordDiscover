@@ -117,14 +117,8 @@ class NewWordDiscover:
 
 
 if __name__ == '__main__':
-    # data = 'a b c d'
-    # data = data.split()
-    data = \
-    Utils.load_table_by_sql("select Content_processed from datasource_new_processed where Language ='cn' limit 2000")[
-        'Content_processed']
-    data = [word for doc in data for sentence in doc.split(';') for word in list(sentence)]
-    # p = re.compile(' +')
-    # data = p.sub(' ', data.replace('\n', ''))
+    data = 'a b c d'
+    data = data.split()
     start_time = time.clock()
     newWordDiscover = NewWordDiscover()
     result = newWordDiscover.start_discover(data)
