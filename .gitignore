@@ -1,0 +1,42 @@
+/newev/
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+/__pycache__/
+settings.cpython-35.pyc
+*.cpython-35.pyc
+*.*.pyc
+
+__pycache__/
+*.py[cod]
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+*.pyc
+result.txt
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/newev/
+/__pycache__/
+settings.cpython-35.pyc
+*.cpython-35.pyc
+*.*.pyc
+
+__pycache__/
+*.py[cod]
